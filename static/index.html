@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Link Shortener</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div style="text-align: center">
+        <a class="title">Make your link shorter for easier access.</a>
+        <hr>
+        <input id="link-input" class="i" placeholder="https://">
+        <button class="b" onclick="short()">Make it short</button>
+    </div>
+
+    <script>
+        function short(){
+            let link = document.getElementById("link-input").value;
+
+            if (link == ""){
+                alert("Please put a link in input." + link);
+                return;
+            }
+
+            window.location.replace("http://127.0.0.1:8080/shortener?link=" + link)
+        }
+    </script>
+</body>
+</html>

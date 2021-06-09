@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Link is Ready!</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div style="text-align: center">
+      <a class="title">Your shortened link is ready!</a>
+      <hr>
+      <a class="result" id="link">{{.URL}}</a>
+      <button class="b" onclick="window.location.replace(document.getElementById('link').textContent)">Go to page.</button>
+</div>
+</body>
+</html>

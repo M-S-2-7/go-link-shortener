@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #001f3f;
+}
+
+.title {
+    font-family: roboto, sans-serif;
+    font-size: 2cm;
+    color: #afadaf;
+}
+
+.i {
+    width: 15cm;
+    font-family: roboto, sans-serif;
+    font-size: 30px;
+    color: yellow;
+    background-color: #1d495e;
+}
+
+.b {
+    background-color: #afadaf;
+    color: #1d495e;
+    height: 1.3cm;
+    font-family: roboto, sans-serif;
+    font-size: 30px;
+}
+
+.result {
+    font-family: roboto, sans-serif;
+    font-size: 1cm;
+    color: #afadaf;
+    border: #afadaf solid 5px;
+    padding: 5px
+}
